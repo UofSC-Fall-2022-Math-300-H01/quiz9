@@ -15,7 +15,7 @@
         "setup": "",
         "run": "lake env lean _Tests/Problem1.lean",
         "input" : "",
-        "output": "[]",
+        "output": "["Quot.sound", "propext", "sorryAx", "Classical.choice"]",
         "comparison": "included",
         "timeout": 10,
         "points": 1
@@ -35,7 +35,7 @@
         "setup": "",
         "run": "lake env lean _Tests/Problem2.lean",
         "input" : "",
-        "output": "[]",
+        "output": "["Quot.sound", "propext", "sorryAx", "Classical.choice"]",
         "comparison": "included",
         "timeout": 10,
         "points": 1
@@ -55,47 +55,7 @@
         "setup": "",
         "run": "lake env lean _Tests/Problem3.lean",
         "input" : "",
-        "output": "[]",
-        "comparison": "included",
-        "timeout": 10,
-        "points": 1
-      },
-      {
-        "name": "Checking Problem 4 Type",
-        "setup": "",
-        "run": "lake env lean _Tests/Problem4.lean",
-        "input" : "",
-        "output": "true",
-        "comparison": "included",
-        "timeout": 10,
-        "points": 1
-      },
-      {
-        "name": "Checking Problem 4 Axioms",
-        "setup": "",
-        "run": "lake env lean _Tests/Problem4.lean",
-        "input" : "",
-        "output": "[Quot.sound, propext, Classical.choice]",
-        "comparison": "included",
-        "timeout": 10,
-        "points": 1
-      },
-      {
-        "name": "Checking Problem 5 Type",
-        "setup": "",
-        "run": "lake env lean _Tests/Problem5.lean",
-        "input" : "",
-        "output": "true",
-        "comparison": "included",
-        "timeout": 10,
-        "points": 1
-      },
-      {
-        "name": "Checking Problem 5 Axioms",
-        "setup": "",
-        "run": "lake env lean _Tests/Problem5.lean",
-        "input" : "",
-        "output": "[Quot.sound, propext]",
+        "output": "["Quot.sound", "propext", "sorryAx", "Classical.choice"]",
         "comparison": "included",
         "timeout": 10,
         "points": 1

@@ -1,4 +1,3 @@
-## Homework 9
+## Quiz 9
 
-We look at sets in Lean 4. We include our own library with basic definitions,
-results, and notations for sets. 
+Fill in the three sorries in the proofs of the problems.

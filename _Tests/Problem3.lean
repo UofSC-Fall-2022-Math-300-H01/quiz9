@@ -1,23 +1,18 @@
-import Hw9
+import Quiz9
 import Sets.Basic
 import Lean.Elab.Print
 import Lean.Elab.Command
 
 open Set 
 
-variable (α β : Type)
-variable (X Y Z : Set α)
-variable (W : Set β) 
+variable {α : Type}
+variable (X Y : Set α)
 
-theorem desiredType1 : ∅ ∈ 𝒫  X := sorry 
+theorem desiredType1 : X ∩ Xᶜ = ∅ := sorry 
 
-theorem desiredType2 (U : β → Set α) : ∀ b, U b ⊆ BigUnion U := sorry 
+theorem desiredType2 : X ∪ Xᶜ = Univ := sorry 
 
-theorem desiredType3 (h : X ⊆ Y) : (X ×ˢ W) ⊆ (Y ×ˢ W) := sorry
-
-theorem desiredType4 (h : Y ∩ Z = ∅) : Yᶜ ∪ Zᶜ = Univ := sorry 
-
-theorem desiredType5 : (X \ Y) ∪ (Y \ X) = (X ∪ Y) \ (X ∩ Y) := sorry 
+theorem desiredType3 : Xᶜ ∪ X = Univ := sorry 
 
 open Lean
 open Lean.Meta
